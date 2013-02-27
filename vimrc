@@ -1,6 +1,13 @@
 set nocompatible
 
-call pathogen#infect()
+"call pathogen#infect()
+filetype off
+
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+filetype plugin indent on
+
 
 let mapleader = ','
 set number
@@ -75,6 +82,7 @@ else
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
-set background=light
+set background=dark
 color solarized
+
 

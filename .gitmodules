@@ -1,0 +1,6 @@
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/colour-schemes"]
+	path = bundle/colour-schemes
+	url = https://github.com/daylerees/colour-schemes.git
